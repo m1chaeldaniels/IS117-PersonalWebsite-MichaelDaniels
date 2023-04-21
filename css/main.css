@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*DEVELOPER:Michael Daniels, IS117-004, Spring 2023, */
+
+
+html {
+    background-color: white;
+}
+body {
+    font-family: Tahoma;
+    font-size: 100%;
+    width: 98%;
+    max-width: 100%;
+    margin: 0 auto 100px auto;
+
+    background-color: white;
+}
+a:focus, a:hover {
+    font-style: inherit;
+}
+/* the styles for the header */
+header {
+    padding: 1.5em 0 2em 0;
+    border-bottom: 3px solid darkgoldenrod;
+    background-image: linear-gradient(
+            30deg, white 10%, darkgoldenrod 50%, darkgoldenrod 60%, darkgoldenrod 60%, white 90%);
+}
+header h2 {
+    font-size: 175%;
+    color: white;
+}
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+    color: white;
+}
+
+header h5 {
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    font-size:40px;
+    color: darkgoldenrod;
+    background-color: transparent;
+}
+header img {
+    float: left;
+    padding: 0 3.75%;
+}
+
+
+.carousel-inner {
+    margin: 1rem;
+    background-color: white;
+    border-bottom:3px solid darkgoldenrod ;
+    border-top: 3px solid darkgoldenrod;
+    border-left:3px solid darkgoldenrod ;
+    border-right:3px solid darkgoldenrod;
+
+}
+
+@media (max-width: 768px) {
+    #demo{
+        width:80%!important;
+    }
+}
+
+.carousel-caption {
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    font-size:105%;
+    color: darkgoldenrod;
+    background-color: transparent;
+}
+
+.card {
+    border: 1px solid darkgoldenrod;
+    border-radius: 0.25rem;
+    margin: 1rem
+}
+
+.card-img-top {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.card-text {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.card-body {
+    text-align: center;
+}
+
+
+
+
+.btn {
+    border:  1px solid darkgoldenrod;
+    border-image-slice: 1;
+    background: gray !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: gray !important;
+    text-decoration: none;
+    transition: all .4s ease;
+
+
+}
+
+.btn:hover, .btn:focus {
+    background: white !important;
+
+    -webkit-text-fill-color: darkgoldenrod !important;
+    border: 5px solid darkgoldenrod !important;
+    box-shadow: #222 1px 0 10px;
+    text-decoration: underline;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
