@@ -74,6 +74,8 @@ header img {
     background-color: transparent;
 }
 
+/* Card css */
+
 .card {
     border: 1px solid darkgoldenrod;
     border-radius: 0.25rem;
