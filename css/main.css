@@ -57,8 +57,16 @@ header img {
     border-top: 3px solid darkgoldenrod;
     border-left:3px solid darkgoldenrod ;
     border-right:3px solid darkgoldenrod;
+    transition: transform 0.3s ease;
 
 }
+
+  
+  .carousel-inner:hover {
+    transform: scale(1.05);
+  }
+
+
 
 @media (max-width: 768px) {
     #demo{
@@ -79,9 +87,21 @@ header img {
 .card {
     border: 1px solid darkgoldenrod;
     border-radius: 0.25rem;
-    margin: 1rem
+    margin: 1rem;
+    perspective: 1000px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 0 0 transparent;
 }
 
+.card:hover, .card:focus {
+    transform: scale(1.05);
+    background: white !important;
+
+    -webkit-text-fill-color: black !important;
+    border: 5px solid darkgoldenrod !important;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    
+}
 .card-img-top {
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
@@ -100,8 +120,13 @@ header img {
 
 .card-body {
     text-align: center;
+    transition: transform 0.3s ease;
 }
 
+  
+  .card-body:hover {
+    transform: translate(0, -5px);
+  }
 
 
 
