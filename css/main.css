@@ -163,3 +163,21 @@ header img {
     padding: 10px;
     font-size: 0.5rem;
 }
+
+
+/* Default styles for all devices */
+
+/* Styles for screens up to 768px wide */
+@media only screen and (max-width: 768px) {
+    /* Mobile-specific styles */
+  }
+  
+  /* Styles for screens between 768px and 1024px wide  */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  
+  }
+  
+  /* Styles for screens larger than 1024px wide */
+  @media only screen and (min-width: 1024px) {
+   
+  }
