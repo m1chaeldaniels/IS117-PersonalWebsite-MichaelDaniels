@@ -23,25 +23,24 @@ a:focus, a:hover {
 /* the styles for the header */
 header {
     padding: 1.5em 0 2em 0;
-    border-bottom: .5px solid darkgoldenrod;
-    background-image: linear-gradient(
-            30deg, white 10%, darkgoldenrod 50%, darkgoldenrod 60%, darkgoldenrod 60%, white 90%);
+    border-bottom: .5px solid  #000080;
+    background-image:  #000080;
 }
 header h2 {
     font-size: 175%;
-    color: white;
+    color:   #000080;
 }
 header h3 {
     font-size: 130%;
     font-style: italic;
-    color: white;
+    color:  #000080;
 }
 
 header h5 {
     font-family: "Comic Sans MS";
     font-weight: bold;
     font-size:40px;
-    color: darkgoldenrod;
+    color:  #000080;
     background-color: transparent;
 }
 header img {
@@ -54,10 +53,10 @@ header img {
 .carousel-inner {
     margin: 1rem;
     background-color: white;
-    border-bottom:3px solid darkgoldenrod ;
-    border-top: 3px solid darkgoldenrod;
-    border-left:3px solid darkgoldenrod ;
-    border-right:3px solid darkgoldenrod;
+    border-bottom:1px solid  #000080 ;
+    border-top: 1px solid  #000080;
+    border-left: 1px solid  #000080;
+    border-right:1px solid  #000080;
     transition: transform 0.3s ease;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
 
@@ -80,14 +79,14 @@ header img {
     font-family: "Comic Sans MS";
     font-weight: bold;
     font-size:105%;
-    color: darkgoldenrod;
+    color:  #000080;
     background-color: transparent;
 }
 
 /* Card css */
 
 .card {
-    border: 1px solid darkgoldenrod;
+    border: 1px solid #000080;
     border-radius: 0.25rem;
     margin: 1rem;
     perspective: 1000px;
@@ -101,7 +100,7 @@ header img {
     background: white !important;
 
     -webkit-text-fill-color: black !important;
-    border: 5px solid darkgoldenrod !important;
+    border: 1px solid  #000080 !important;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
     
 }
@@ -134,7 +133,7 @@ header img {
 
 
 .btn {
-    border:  1px solid darkgoldenrod;
+    border:  1px solid  #000080;
     border-image-slice: 1;
     background: gray !important;
     -webkit-background-clip: text !important;
@@ -148,8 +147,8 @@ header img {
 .btn:hover, .btn:focus {
     background: white !important;
 
-    -webkit-text-fill-color: darkgoldenrod !important;
-    border: 5px solid darkgoldenrod !important;
+    -webkit-text-fill-color:  #000080 !important;
+    border: 1px solid  #000080 !important;
     box-shadow: #222 1px 0 10px;
     text-decoration: underline;
 }
