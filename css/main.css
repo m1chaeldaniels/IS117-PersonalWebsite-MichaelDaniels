@@ -36,6 +36,14 @@ header h3 {
     color:  #000080;
 }
 
+ h4 {
+    font-size: 110%;
+    font-style: italic;
+    text-align: center;
+
+    color:  #000080;
+}
+
 header h5 {
     font-family: "Comic Sans MS";
     font-weight: bold;
@@ -52,6 +60,7 @@ header img {
 
 .carousel-inner {
     margin: 1rem;
+    border-radius: 2rem; 
     background-color: white;
     border-bottom:1px solid  #000080 ;
     border-top: 1px solid  #000080;
@@ -71,7 +80,7 @@ header img {
 
 @media (max-width: 576px) {
     #demo{
-        width:80%!important;
+        width:100%!important;
     }
 }
 
@@ -87,8 +96,8 @@ header img {
 
 .card {
     border: 1px solid #000080;
-    border-radius: 0.25rem;
-    margin: 1rem;
+     border-radius: 1.5rem; 
+    margin: rem;
     perspective: 1000px;
     transition: transform 0.3s ease;
     box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
@@ -105,12 +114,12 @@ header img {
     
 }
 .card-img-top {
-    border-top-left-radius: calc(0.25rem - 1px);
-    border-top-right-radius: calc(0.25rem - 1px);
+   border-top-left-radius: calc(1.5rem - 3px);
+    border-top-right-radius: calc(1.5rem - 3px); 
 }
 
 .card-title {
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 500;
     text-align: center;
 }
@@ -118,11 +127,13 @@ header img {
 .card-text {
     margin-bottom: 1rem;
     text-align: center;
+    
 }
 
 .card-body {
     text-align: center;
     transition: transform 0.3s ease;
+    
 }
 
   
@@ -140,6 +151,7 @@ header img {
     -webkit-text-fill-color: gray !important;
     text-decoration: none;
     transition: all .4s ease;
+    border-radius: 1rem; 
 
 
 }
