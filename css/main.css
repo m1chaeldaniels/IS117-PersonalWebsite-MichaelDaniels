@@ -69,7 +69,7 @@ header img {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     #demo{
         width:80%!important;
     }
