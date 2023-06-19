@@ -1,56 +1,67 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 /*DEVELOPER:Michael Daniels, IS117-004, Spring 2023, */
 
 
 html {
     background-color: white;
 }
+
 body {
-    font-family: Tahoma;
+    font-family: "Roboto", sans-serif;
     font-size: 100%;
     width: 98%;
     max-width: 100%;
     margin: 0 auto 100px auto;
-
     background-color: white;
 }
-a:focus, a:hover {
-    font-style: inherit;
+
+a:focus,
+a:hover {
+    text-decoration: none;
 }
+
 /* the styles for the header */
 header {
     padding: 1.5em 0 2em 0;
-    border-bottom: .5px solid  #000080;
-    background-image:  #000080;
+    border-bottom: 1px solid #000080;
+    background-image: #000080;
+    background-color: #f5f5f5
 }
+
 header h2 {
     font-size: 175%;
-    color:   #000080;
+    color: #000080;
 }
+
 header h3 {
     font-size: 130%;
     font-style: italic;
-    color:  #000080;
+    color: #000080;
 }
 
- h4 {
-    font-size: 110%;
-    font-style: italic;
-    text-align: center;
-
-    color:  #000080;
-}
-
-header h5 {
-    font-family: "Comic Sans MS";
+h4 {
+    font-size: 150%;
     font-weight: bold;
-    font-size:40px;
-    color:  #000080;
+    text-decoration: underline;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #000080;
+}
+
+h5 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 130%;
+    color: #000080;
     background-color: transparent;
 }
+
 header img {
     float: left;
     padding: 0 3.75%;
@@ -60,110 +71,128 @@ header img {
 
 .carousel-inner {
     margin: 1rem;
-    border-radius: 2rem; 
+    border-radius: 2rem;
     background-color: white;
-    border-bottom:1px solid  #000080 ;
-    border-top: 1px solid  #000080;
-    border-left: 1px solid  #000080;
-    border-right:1px solid  #000080;
+    border-bottom: 1px solid #000080;
+    border-top: 1px solid #000080;
+    border-left: 1px solid #000080;
+    border-right: 1px solid #000080;
     transition: transform 0.3s ease;
     box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
 
 }
 
-  
-  .carousel-inner:hover {
+
+.carousel-inner:hover {
     transform: scale(1.05);
-  }
+}
 
 
 
 @media (max-width: 576px) {
-    #demo{
-        width:100%!important;
+    #demo {
+        width: 90% !important;
     }
 }
 
-.carousel-caption {
-    font-family: "Comic Sans MS";
-    font-weight: bold;
-    font-size:105%;
-    color:  #000080;
-    background-color: transparent;
-}
+
 
 /* Card css */
 
 .card {
     border: 1px solid #000080;
-     border-radius: 1.5rem; 
-    margin: rem;
+    border-radius: 1.5rem;
+    margin: 1rem;
     perspective: 1000px;
     transition: transform 0.3s ease;
     box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
 
+
 }
 
-.card:hover, .card:focus {
+.card:hover,
+.card:focus {
     transform: scale(1.05);
     background: white !important;
 
     -webkit-text-fill-color: black !important;
-    border: 1px solid  #000080 !important;
+    border: 1px solid #000080 !important;
     box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.3);
-    
+
 }
+
 .card-img-top {
-   border-top-left-radius: calc(1.5rem - 3px);
-    border-top-right-radius: calc(1.5rem - 3px); 
+    border-top-left-radius: calc(1.5rem - 3px);
+    border-top-right-radius: calc(1.5rem - 3px);
 }
 
 .card-title {
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: bold;
     text-align: center;
 }
 
 .card-text {
     margin-bottom: 1rem;
     text-align: center;
-    
+
 }
 
 .card-body {
     text-align: center;
     transition: transform 0.3s ease;
-    
+
 }
 
-  
-  .card-body:hover {
+
+.card-body:hover {
     transform: translate(0, -5px);
-  }
+}
 
 
 
 .btn {
-    border:  1px solid  #000080;
+    border: 1px solid #000080;
     border-image-slice: 1;
     background: gray !important;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: gray !important;
     text-decoration: none;
     transition: all .4s ease;
-    border-radius: 1rem; 
+    border-radius: 1rem;
 
 
 }
 
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
     background: white !important;
 
-    -webkit-text-fill-color:  #000080 !important;
-    border: 1px solid  #000080 !important;
+    -webkit-text-fill-color: #000080 !important;
+    border: 1px solid #000080 !important;
     box-shadow: #222 1px 0 10px;
     text-decoration: underline;
 }
+
+.resume-box {
+
+    border-image-slice: 1;
+    background: #000080 !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: #000080 !important;
+    text-decoration: none;
+    transition: all .4s ease;
+    border-radius: 1rem;
+
+
+
+}
+
+.resume-box a {
+    display: block;
+    text-align: center;
+}
+
 .footer {
     position: fixed;
     left: 0;
@@ -182,14 +211,10 @@ header img {
 /* Styles for screens up to 768px wide */
 @media only screen and (max-width: 768px) {
     /* Mobile-specific styles */
-  }
-  
-  /* Styles for screens between 768px and 1024px wide  */
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  
-  }
-  
-  /* Styles for screens larger than 1024px wide */
-  @media only screen and (min-width: 1024px) {
-   
-  }
+}
+
+/* Styles for screens between 768px and 1024px wide  */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+
+/* Styles for screens larger than 1024px wide */
+@media only screen and (min-width: 1024px) {}
